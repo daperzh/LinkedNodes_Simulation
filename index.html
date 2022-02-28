@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedNodes Simulation</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <canvas id="cnv"></canvas>
+
+  <div id="menu">
+    <button class='singly-btn' onclick='addNode(0)'>+ SINGLY NODE</button>
+    <button class='dbly-btn' onclick='addNode(1)'>+ DOUBLY NODE</button>
+    <button class='pointy-btn' onclick='addPointer()'>+ POINTER</button>
+  </div>
+
+  <div id="ctx-menu">
+    <button class='delety-btn' onclick='delItem()'>- DELETE</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
