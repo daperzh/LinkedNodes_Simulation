@@ -35,3 +35,11 @@ body {
   background: #ccc;
   cursor: pointer;
 }
+
+footer {
+  position: absolute;
+  font-family: "Courier New";
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
