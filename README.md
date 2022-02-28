@@ -1,5 +1,5 @@
 # LinkedNodes_Simulation
-This is a JavaScript project to make my C++ projects easier. (god, I hate pointers)<br /><br />
+This is a JavaScript project to make (some) C++ projects easier.<br /><br />
 
 This will help those who need a visual look at how Nodes and Pointers interact together. The functions of the app is very simple.<br />
 -To add a Node or a Pointer, just press the buttons on the top left corner.<br />
